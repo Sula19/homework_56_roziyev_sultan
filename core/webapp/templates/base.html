@@ -1,0 +1,38 @@
+{% load static %}
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Title{% endblock %}</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/" style="color: white">Store</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{% url 'home' %}">
+                    <button type="button" class="btn btn-light">Products</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{% url 'product_add' %}">
+                    <button type="button" class="btn btn-light">Add Product</button>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{% url 'out_of_stock' %}">
+                    <button type="button" class="btn btn-light">Out of stock</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{% block content %}{% endblock %}
+</body>
+</html>
