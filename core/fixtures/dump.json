@@ -1,0 +1,106 @@
+[
+{
+   "model": "webapp.products",
+   "pk": 1,
+   "fields": {
+      "name": "iPhone 11",
+      "description": "iPhone 11, 128 GB, Black",
+      "img": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F228942_1.jpg&w=3840&q=85",
+      "category": "SmartPhone",
+      "remainder": 24,
+      "price": "333.00",
+      "created_at": "2023-02-26T18:08:03.935Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 2,
+   "fields": {
+      "name": "CYBERPOWERPC",
+      "description": "Intel Core i5-10400F, Nvidia GTX 1650 4GB, 16GB RAM, 500GB NVMe SSD, 450W 80+ PSU, Wi-Fi, Windows 11, Onyxia III RGB",
+      "img": "https://m.media-amazon.com/images/I/714nEQAmf0L._AC_SL1500_.jpg",
+      "category": "PC",
+      "remainder": 50,
+      "price": "11122.00",
+      "created_at": "2023-02-26T18:20:17.463Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 7,
+   "fields": {
+      "name": "Xiaomi NoteBook Pro 120G",
+      "description": "The Xiaomi NoteBook Pro 120 comes in two variants. Both feature the Intel Core i5-12450H, which has 8 physical cores (4x P-cores, 4x E-cores) and 12 threads. It can boost up to 4.4GHz on the P-cores and has a 12MB cache. It has a base TDP of 45W but can boost up to 95W during the turbo window, although Xiaomi has configured its PL2 and PL1 at 85W and 40W, respectively.",
+      "img": "https://fdn.gsmarena.com/imgroot/news/22/09/xiaomi-notebook-pro-120g-review/inline/-1200w5/gsmarena_001.jpg",
+      "category": "NoteBook",
+      "remainder": 200,
+      "price": "23001.00",
+      "created_at": "2023-02-27T10:32:37.301Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 8,
+   "fields": {
+      "name": "Nokia T20 Wi-Fi",
+      "description": "Android 11, 247.6 x 157.5 x 7.8 mm, 32GB built-in, 3GB Ram eMMC 5.1 Card slot microSDXC (dedicated slot)",
+      "img": "https://www.pakmobizone.pk/wp-content/uploads/2022/04/Nokia-T20-Deep-Ocean-1.jpg",
+      "category": "Tablets",
+      "remainder": 1,
+      "price": "120.00",
+      "created_at": "2023-02-27T10:34:56.885Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 9,
+   "fields": {
+      "name": "Infin8 Venomous",
+      "description": "Intel Core i7 12700K, RTX 3080 Watercooled Gaming PC",
+      "img": "https://img.overclockers.co.uk/products/OCUK-FS-46K-OE/ven2hero.jpg",
+      "category": "PC",
+      "remainder": 0,
+      "price": "2022.00",
+      "created_at": "2023-02-27T10:44:26.894Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 10,
+   "fields": {
+      "name": "Samsung S21 Ultra",
+      "description": "128 ГБ Phantom Black,  Dynamic AMOLED 2X, 12 ГБ",
+      "img": "https://cdn1.it4profit.com/brd2/q:68/g:sm/plain/s3://app/public/models/SM-G998BZKDSEK/large/j/210427160020957719.jpg",
+      "category": "SmartPhone",
+      "remainder": 0,
+      "price": "1500.00",
+      "created_at": "2023-02-27T10:46:51.898Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 11,
+   "fields": {
+      "name": "MacBook Air",
+      "description": "8-Core CPU, 7-Core GPU, 8GB Unified Memory, 256GB SSD Storage",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+      "category": "NoteBook",
+      "remainder": 0,
+      "price": "999.00",
+      "created_at": "2023-02-27T10:48:31.742Z"
+   }
+},
+{
+   "model": "webapp.products",
+   "pk": 12,
+   "fields": {
+      "name": "XIAOMI MI 11 ULTRA",
+      "description": "512GB/12GB ЧЕРНЫЙ, 74.6 х 164.3 х 8.4 мм, Adreno 660",
+      "img": "https://mobitron.kz/upload/iblock/1c8/4jdh796krj4n1a7qn6xssg2akd5q46z6.jpg",
+      "category": "SmartPhone",
+      "remainder": 12,
+      "price": "555.00",
+      "created_at": "2023-02-27T10:50:14.102Z"
+   }
+}
+]
