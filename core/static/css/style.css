@@ -1,0 +1,35 @@
+* {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-style: italic;
+}
+.navbar {
+    background: #1b1b1b;
+}
+.image {
+    height: 270px;
+}
+body {
+    background: url("../img/image.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+.mb-3 {
+    color: antiquewhite;
+}
+.card {
+    background: black;
+}
+h1 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+h5 {
+    color: white;
+}
+p {
+    color: white;
+}
+h3 {
+    color: #dddddd;
+}
